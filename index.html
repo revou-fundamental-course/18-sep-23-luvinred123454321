@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- navbar content -->
+    <header id="navbar" class="navigation">
+      <div class="page-title">E-Grocery</div>
+      <div class="nav">
+        <a href="#content-left" class="nav-content nav-item">Home</a>
+        <a href="#logo-number" class="nav-content nav-item">Our Package</a>
+        <a href="#content-right" class="nav-content nav-item">Call US</a>
+      </div>
+    </header>
+
+    <!-- end navbar -->
+    <div class="content">
+      <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+      <p>Everyday with best ingredient</p>
+    </div>
+    <!-- main content -->
+    <main>
+      <div class="content-item" required>
+        <!-- konten bagian kiri -->
+        <div id="content-left" class="content-left">
+          <img type="slider" src="asset/jk-placeholder-image.jpg" class="content-left image" alt="slider" />
+          <span>Fresh everyday</span>
+          <div class="content-left-item">
+            <div class="content-center">
+              <div class="img-logo"><img src="asset/kkj.jpg" class="img-logo" /></div>
+            </div>
+          </div>
+          <h3>Use this space to provide users with more information about your offer. Consider it a follow-up your headline and esplain the benefits of yyour service or product</h3>
+          <!-- bagian lingkaran nomor -->
+          <div id="logo-number" class="content-left-item">
+            <div class="content-center">
+              <div class="logo-number">
+                <h3><b>1</b></h3>
+              </div>
+              <div><h3>Your first feature, written in the form of a benefit statement.</h3></div>
+            </div>
+          </div>
+          <div class="content-left-item">
+            <div class="content-center">
+              <div class="logo-number">
+                <h3><b>2</b></h3>
+              </div>
+              <div><h3>Your second feature, written in the form of a benefit statement.</h3></div>
+            </div>
+          </div>
+          <div class="content-left-item">
+            <div class="content-center">
+              <div class="logo-number">
+                <h3><b>3</b></h3>
+              </div>
+              <div><h3>Your third feature, written in the form of a benefit statement.</h3></div>
+            </div>
+          </div>
+        </div>
+        <!-- konten bagian kanan -->
+        <div id="content-right" class="content-right">
+          <form action="#" method="post" id="form" class="form">
+            <h1><b>Contact Us</b></h1>
+            <h3>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</h3>
+            <label for="name" class="label">Your Name</label>
+            <input type="text" name="name" class="input" placeholder="First and last name" required />
+
+            <label for="email" class="label">Email Address</label>
+            <input type="email" name="email" class="input" placeholder="Example@email.com" required />
+
+            <label for="interest" class="label">What are you interested in?</label>
+            <select type="select" name="interest" class="input" required>
+              <option>Football</option>
+              <option>Basketball</option>
+              <option>Badminton</option>
+              <option>Swimming</option>
+            </select>
+            <button id="button" class="button" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <!-- end main -->
+    <!-- footer content -->
+    <footer></footer>
+    <!-- end footer -->
+  </body>
+</html>
